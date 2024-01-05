@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emergency_modify_title">修改紧急联系人</string>
+    <string name="emergency_phone_not_exist">紧急联系人不存在</string>
+</resources>

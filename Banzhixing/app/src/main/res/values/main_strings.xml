@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_bottom_tab_gps">GPS定位</string>
+    <string name="main_bottom_tab_one_key_help">一键自救</string>
+    <string name="main_bottom_tab_timing_protect">定时守护</string>
+    <string name="main_bottom_tab_location_share">位置共享</string>
+    <string name="main_bottom_tab_personal">个人大厅</string>
+
+    <string name="main_one_key_help_light">手电</string>
+    <string name="main_one_key_help_ring">响铃</string>
+    <string name="main_one_key_help_dial">电话</string>
+
+    <string name="main_will_call_emergency_tip">即将通过电话快速联系您的紧急联系人</string>
+    <string name="main_will_call_emergency_cancel">不需要求助了</string>
+    <string name="main_timing_protect_select_time">设定守护时长</string>
+    <string name="main_timing_protect_auto_help">后自动求救</string>
+    <string name="main_timing_exited">已退出定时守护</string>
+
+    <string name="main_personal_emergency">紧急联系人</string>
+    <string name="main_personal_security_code">安全码</string>
+    <string name="main_personal_quit">退出账号</string>
+</resources>

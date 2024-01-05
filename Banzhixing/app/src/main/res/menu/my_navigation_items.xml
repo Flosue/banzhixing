@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_menu_gps"
+        android:title="@string/main_bottom_tab_gps"
+        android:icon="@drawable/main_tab_gps" />
+    <item android:id="@+id/main_menu_one_key_help"
+        android:title="@string/main_bottom_tab_one_key_help"
+        android:icon="@drawable/main_tab_one_key_help" />
+    <item android:id="@+id/main_menu_timing_protect"
+        android:title="@string/main_bottom_tab_timing_protect"
+        android:icon="@drawable/main_tab_timing_protect" />
+    <item android:id="@+id/main_menu_location_share"
+        android:title="@string/main_bottom_tab_location_share"
+        android:icon="@drawable/main_tab_location_share" />
+    <item android:id="@+id/main_menu_personal"
+        android:title="@string/main_bottom_tab_personal"
+        android:icon="@drawable/main_tab_personal" />
+</menu>

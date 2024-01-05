@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_input_new_code">请输入新的安全码</string>
+    <string name="security_input_verify_code">请输入安全码</string>
+    <string name="security_code_modify_success">安全码修改成功</string>
+    <string name="security_code_verify_failed">安全码错误</string>
+</resources>

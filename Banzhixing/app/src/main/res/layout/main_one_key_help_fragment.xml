@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#10000000"
+    android:paddingTop="40dp">
+    <CheckedTextView
+        style="@style/MainOneKeyHelpIconStyle"
+        android:text="@string/main_one_key_help_light"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tvRing"
+        app:layout_constraintBottom_toTopOf="@id/btnOneKeyHelp"
+        android:drawableTop="@drawable/main_one_key_help_light"
+        android:id="@+id/tvLight"/>
+
+    <CheckedTextView
+        style="@style/MainOneKeyHelpIconStyle"
+        android:text="@string/main_one_key_help_ring"
+        app:layout_constraintLeft_toRightOf="@id/tvLight"
+        app:layout_constraintRight_toLeftOf="@id/tvDial"
+        app:layout_constraintBottom_toTopOf="@id/btnOneKeyHelp"
+        android:drawableTop="@drawable/main_one_key_help_ring"
+        android:id="@+id/tvRing"/>
+
+    <CheckedTextView
+        style="@style/MainOneKeyHelpIconStyle"
+        android:text="@string/main_one_key_help_dial"
+        app:layout_constraintLeft_toRightOf="@id/tvRing"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnOneKeyHelp"
+        android:drawableTop="@drawable/main_one_key_help_dial"
+        android:id="@+id/tvDial"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="一键一体"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:background="@color/colorPrimary"
+        android:height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/btnOneKeyHelp"/>
+</android.support.constraint.ConstraintLayout>
